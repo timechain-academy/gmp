@@ -50,10 +50,6 @@ mpn/*.c
 mpn/*.asm
 .DS_Store
 
-demos/pexpr-config.h
-demos/calc/calc-config.h
-demos/calc/calc.c
-demos/calc/calc.h
 config.log
 config.status
 
@@ -98,6 +94,7 @@ COPYING
 *.lo
 
 *.exeMakefile
+Makefile
 configure~
 doc/Makefile
 src/Makefile
