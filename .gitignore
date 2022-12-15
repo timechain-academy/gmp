@@ -4,6 +4,13 @@ autom4te.cache
 config.in
 Makefile.in
 compile
+src/.deps/
+src/.libs/
+**.o
+**.lo
+**.la
+**:w
+.deps**
 
 config\.cache
 config\.h
@@ -47,11 +54,14 @@ doc/version.texi
 # All source files in mpn/ are either generated, or links
 mpn/*.c
 mpn/*.asm
+.DS_Store
 
 demos/pexpr-config.h
 demos/calc/calc-config.h
 demos/calc/calc.c
 demos/calc/calc.h
+config.log
+config.status
 
 tests/t-*
 tests/*/t-*
@@ -93,4 +103,14 @@ COPYING
 *.o
 *.lo
 
-*.exe
+*.exeMakefile
+configure~
+doc/Makefile
+src/Makefile
+tests/Makefile
+!tests/*.h
+!tests/*.c
+!tests/*.dat
+tests/**
+tools/bench/Makefile
+tune/Makefile
