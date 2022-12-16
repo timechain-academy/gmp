@@ -20,6 +20,7 @@ trap cleanup $signals
 mv -f INSTALL INSTALL.$$.tmp
 
 automake --add-missing
+autoconf
 
 # autoreconf -v -f -i --warnings=all,error
 status=$?
