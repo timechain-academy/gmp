@@ -1,0 +1,11 @@
+calc/calclex.c
+calc/tags
+expr/libexpr.a
+expr/run-expr
+expr/t-expr
+expr/tags
+factorize
+isprime
+pexpr
+qcn
+tags
